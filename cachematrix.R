@@ -1,8 +1,8 @@
 ## Put comments here that give an overall description of what your
 ## functions do
-Make Cache of Matrix
+#Make Cache of Matrix
 ## Write a short comment describing this function
-Calculate the inverse of matrix and if already created find it in cache instead of recreate it. 
+#Calculate the inverse of matrix and if already created find it in cache instead of recreate it. 
 makeCacheMatrix <- function(x = matrix()) {
 	invrs <- NULL
 	set <- function(y) {
